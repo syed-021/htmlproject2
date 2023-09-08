@@ -1,0 +1,80 @@
+
+body{
+    background-image:url(../assest/download.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.ali{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:darkgrey;
+    
+}
+.web{
+    padding-top: 0%;
+    margin-top: 0%;
+    height: 500px;
+    width: 500px;
+}
+.pragraph{
+    font-weight: bold;
+    font-size:x-large;
+    color:black;
+}
+.heading{
+    font-family:'Courier New', Courier, monospace;
+    font-size:xx-large;
+    font-style:oblique;
+    color: azure;
+    font-weight:900;
+}
+.sec{
+    background-color: black;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    color: cornflowerblue;
+    font-size: larger;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.center{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    
+}
+.hello{
+    font-size: xx-large;
+    font-weight: bolder;
+    color:aliceblue;
+}
+.love{
+    font-weight: 900;
+    color:aqua;
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}

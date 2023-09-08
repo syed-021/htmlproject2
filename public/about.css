@@ -1,0 +1,29 @@
+@media(max-width: 1200px)
+{
+
+      .school>.grid{
+            display: flex; 
+            flex-direction: column;
+            height: 100%;
+            
+      }
+}
+body{
+      background-image: url(../assest/images\ \(3\).jpg);
+      background-size: cover;
+      background-attachment: fixed;
+}
+.about{
+    
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      flex-direction: column;
+      text-align:center;    
+}
+.grid{
+    
+      display: grid;
+      gap: 3rem;
+      grid-template-columns: 400px 400px 400px ;
+      grid-template-rows: 1fr 1fr;
+}
